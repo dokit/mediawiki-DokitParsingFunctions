@@ -1,0 +1,7 @@
+{
+    "name": "dokit/dokit-parsing-functions",
+    "description": "Mediawiki extension to add some parsing functions.",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}

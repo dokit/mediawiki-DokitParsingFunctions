@@ -1,0 +1,23 @@
+{
+	"name": "DokitParsingFunctions",
+	"version": "1.0.0",
+	"author": [
+		"Pierre Boutet"
+	],
+	"description": "add some parsing functions",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.28.0"
+	},
+	"AutoloadClasses": {
+		"DokitParsingFunctions\\Hooks": "includes/Hooks.php"
+	},
+	"ExtensionMessagesFiles": {
+		"ExampleExtensionMagic": "DokitParsingFunctions.i18n.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "DokitParsingFunctions\\Hooks::onParserFirstCallInit"
+	},
+	"manifest_version": 1
+}
